@@ -12,6 +12,8 @@ To install this package, run the following Composer command in your project.
 composer require --dev elgentos/coding-standard-laravel
 ```
 
+## Usage
+
 To let PHPCS in your project know that these coding standards should be used,
 make sure you add the following lines to your project's `phpcs.xml` file:
 
@@ -20,16 +22,6 @@ make sure you add the following lines to your project's `phpcs.xml` file:
 <ruleset>
     <rule ref="./vendor/elgentos/coding-standard-egentos/src/ElgentosLaravel"/>
 </ruleset>
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
