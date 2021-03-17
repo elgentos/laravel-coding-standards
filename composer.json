@@ -1,0 +1,21 @@
+{
+  "name": "elgentos/coding-standard-laravel",
+  "description": "Elgentos PHP Coding Standard for Laravel",
+  "type": "phpcs-sniffs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arjen Miedema",
+      "email": "info@elgentos.nl"
+    }
+  ],
+  "require": {
+    "mediact/coding-standard": "^3.0",
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "ElgentosLaravel": "src/ElgentosLaravel"
+    }
+  }
+}
