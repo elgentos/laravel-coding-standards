@@ -9,7 +9,7 @@ framework specific changes made for Laravel.
 To install this package, run the following Composer command in your project.
 
 ```bash
-composer require --dev elgentos/coding-standard-laravel
+composer require --dev elgentos/laravel-coding-standard
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ make sure you add the following lines to your project's `phpcs.xml` file:
 ```xml
 <?xml version="1.0"?>
 <ruleset>
-    <rule ref="./vendor/elgentos/coding-standard-egentos/src/ElgentosLaravel"/>
+    <rule ref="./vendor/elgentos/laravel-coding-standard/src/ElgentosLaravel"/>
 </ruleset>
 ```
 
