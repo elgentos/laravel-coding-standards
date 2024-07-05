@@ -11,10 +11,10 @@
     <arg name="extensions" value="php/PHP,js/JS,css/CSS" />
 
     <!-- Base rules on MediaCT -->
-    <rule ref="../../../../mediact/coding-standard/src/MediactCommon">
+    <rule ref="../../../../youwe/coding-standard/src/GlobalCommon">
         <exclude name="Squiz.Classes.ValidClassName.NotCamelCaps" />
         <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing" />
-        <exclude name="MediactCommon.Php7.ReturnType" />
+        <exclude name="GlobalCommon.Php7.ReturnType" />
         <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
         <exclude name="PSR2.Methods.MethodDeclaration.Underscore" />
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows" />
