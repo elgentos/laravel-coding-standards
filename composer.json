@@ -1,7 +1,7 @@
 {
   "name": "elgentos/laravel-coding-standard",
   "description": "Elgentos PHP Coding Standard for Laravel",
-  "type": "phpcs-sniffs",
+  "type": "phpcodesniffer-standard",
   "license": "MIT",
   "authors": [
     {
